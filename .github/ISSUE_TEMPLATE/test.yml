@@ -1,0 +1,29 @@
+name: Bug Report
+description: Report a bug in the project.
+body:
+- type: textarea
+  id: title
+  label: Short description of the issue
+  required: true
+- type: textarea
+  id: description
+  label: Detailed description of the issue
+  required: true
+- type: textarea
+  id: steps
+  label: Steps to reproduce the issue
+  required: false
+  description: Separate items with a new line
+- type: dropdown
+  id: severity
+  label: Severity of the issue
+  required: false
+  options:
+  - low
+  - medium
+  - high
+- type: textarea
+  id: labels
+  label: Labels to categorize the issue
+  required: false
+  description: Separate items with a new line
