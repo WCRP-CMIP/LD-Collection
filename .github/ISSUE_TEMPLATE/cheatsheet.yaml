@@ -14,7 +14,7 @@
 # Required top-level fields                                            #
 ########################################################################
 # The name is a string that's unique across all templates:
-name: Bug Report
+name: Bug Reporty
 # The description is a short summary (max 200 characters) for this template:
 description: Use this template to report bugs in the project.
 
