@@ -1,5 +1,5 @@
 name: add/modify Activity
-description: null
+description: 'Type: activity'
 title: 'add/modify Activity: <enter item name>'
 body:
 -   type: markdown
