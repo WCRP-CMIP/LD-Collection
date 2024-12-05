@@ -5,9 +5,9 @@ body:
 -   type: markdown
     attributes:
         value: " To add a new activity please fill in the form below. \n\n Existing\
-            \ entries are: \n\n\t *| aerchemmip | c4mip | cfmip | cmip | damip | dcpp\
+            \ entries are: \n\n\t * | aerchemmip | c4mip | cfmip | cmip | damip | dcpp\
             \ | geomip | lesfmip | lmip | pmip | ramip | rfmip | scenariomip | tipmip\
-            \ |* \n\n Alternatively visit https://github.com/wcrp-cmip/WCRP-UNIVERSE/tree/main/activity/data_descriptors/\
+            \ | * \n\n Alternatively visit https://github.com/wcrp-cmip/WCRP-UNIVERSE/tree/main/activity/data_descriptors/\
             \ to see examples. "
 -   id: description
     attributes:
