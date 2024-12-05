@@ -1,25 +1,18 @@
-name: add/modify Activity
+name: Add/Modify Activity
 description: 'Type: activity'
-title: 'add/modify Activity: <enter item name>'
+title: 'Add/Modify Activity: <enter item name>'
 body:
 -   type: markdown
     attributes:
         value: " To add a new activity please fill in the form below. \n\n Existing\
-            \ entries are: \n\n\t  | aerchemmip | c4mip | cfmip | cmip | damip | dcpp\
-            \ | geomip | lesfmip | lmip | pmip | ramip | rfmip | scenariomip | tipmip\
-            \ |  \n\n\n <br> Alternatively visit https://github.com/wcrp-cmip/WCRP-UNIVERSE/tree/main/activity/data_descriptors/\
+            \ entries are: \n\n\t ``` | aerchemmip | c4mip | cfmip | cmip | damip\
+            \ | dcpp | geomip | lesfmip | lmip | pmip | ramip | rfmip | scenariomip\
+            \ | tipmip | ```  \n\n\n <br> Alternatively visit https://github.com/wcrp-cmip/WCRP-UNIVERSE/tree/main/activity/data_descriptors/\
             \ to see examples. "
 -   id: description
     attributes:
         label: Description
         description: A detailed description of the activity or project.
-    validations:
-        required: true
-    type: input
--   id: id
-    attributes:
-        label: Id
-        description: A unique identifier for the activity.
     validations:
         required: true
     type: input
@@ -30,15 +23,6 @@ body:
     validations:
         required: true
     type: input
--   id: type
-    attributes:
-        label: Type
-        description: The type of entity being described (e.g., 'activity').
-        options:
-        - activity
-    validations:
-        required: true
-    type: dropdown
 -   id: url
     attributes:
         label: Url
@@ -46,3 +30,4 @@ body:
     validations:
         required: true
     type: input
+
