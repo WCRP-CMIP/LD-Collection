@@ -6,7 +6,6 @@ body:
 - attributes:
     description: A unique identifier for the activity.
     label: Id
-    placeholder: Enter your id
   id: id
   type: input
   validations:
@@ -16,7 +15,6 @@ body:
     label: Type
     options:
     - activity
-    placeholder: ''
   id: type
   type: dropdown
   validations:
@@ -24,7 +22,6 @@ body:
 - attributes:
     description: A detailed description of the activity or project.
     label: Description
-    placeholder: Enter your description
   id: description
   type: input
   validations:
@@ -32,7 +29,6 @@ body:
 - attributes:
     description: The name of the activity.
     label: Name
-    placeholder: Enter your name
   id: name
   type: input
   validations:
@@ -40,7 +36,6 @@ body:
 - attributes:
     description: A URL providing further documentation or references.
     label: Url
-    placeholder: Enter your url
   id: url
   type: input
   validations:
