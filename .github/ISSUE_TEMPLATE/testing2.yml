@@ -3,26 +3,26 @@ body:
     description: Your full name
     label: Name
     placeholder: Enter your name
-    validations:
-      required: true
   id: name
   type: input
+  validations:
+    required: true
 - attributes:
     description: Your email address
     label: Email
     placeholder: Enter your email
-    validations:
-      required: true
   id: email
   type: input
+  validations:
+    required: true
 - attributes:
     description: Your age
     label: Age
     placeholder: Enter your age
-    validations:
-      required: false
   id: age
   type: input
+  validations:
+    required: false
 - attributes:
     description: Select your favorite color
     label: Favorite Color
@@ -31,10 +31,10 @@ body:
     - Green
     - Blue
     - Yellow
-    validations:
-      required: false
   id: favorite_color
   type: dropdown
+  validations:
+    required: false
 - attributes:
     description: Select your skills
     label: Skills
@@ -43,20 +43,20 @@ body:
     - label: javascript
     - label: c++
     - label: java
-    validations:
-      required: false
   id: skills
   type: checkboxes
+  validations:
+    required: false
 - attributes:
     description: Are you currently active?
     label: Is Active
     options:
     - 'Yes'
     - 'No'
-    validations:
-      required: false
   id: is_active
   type: dropdown
+  validations:
+    required: false
 description: Auto-generated form from JSON Schema.
 name: Example Form Schema
 title: '{{ name }} - Submission'
