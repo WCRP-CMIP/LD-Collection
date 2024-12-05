@@ -3,21 +3,24 @@ body:
     description: Your full name
     label: Name
     placeholder: Enter your name
-    required: true
+    validation:
+      required: true
   id: name
   type: input
 - attributes:
     description: Your email address
     label: Email
     placeholder: Enter your email
-    required: true
+    validation:
+      required: true
   id: email
   type: input
 - attributes:
     description: Your age
     label: Age
     placeholder: Enter your age
-    required: false
+    validation:
+      required: false
   id: age
   type: input
 - attributes:
@@ -28,22 +31,20 @@ body:
     - Green
     - Blue
     - Yellow
-    required: false
+    validation:
+      required: false
   id: favorite_color
   type: dropdown
 - attributes:
     description: Select your skills
     label: Skills
     options:
-    - label: Python
-      value: python
-    - label: JavaScript
-      value: javascript
-    - label: C++
-      value: c++
-    - label: Java
-      value: java
-    required: false
+    - label: python
+    - label: javascript
+    - label: c++
+    - label: java
+    validation:
+      required: false
   id: skills
   type: checkboxes
 - attributes:
@@ -52,10 +53,10 @@ body:
     options:
     - 'Yes'
     - 'No'
-    required: false
+    validation:
+      required: false
   id: is_active
   type: dropdown
 description: Auto-generated form from JSON Schema.
 name: Example Form Schema
 title: '{{ name }} - Submission'
-
