@@ -6,8 +6,8 @@ body:
   id: name
   type: input
   validations:
-    required: true 
-    regex:"[A-D]"
+    required: true,
+    regex: [A-D]
 - attributes:
     description: Your email address
     label: Email
