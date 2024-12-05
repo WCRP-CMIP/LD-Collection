@@ -1,48 +1,45 @@
-- - - name
-    - add/modify Activity
-  - - description
-    - null
-  - - title
-    - 'add/modify Activity: <enter item name>'
-  - - body
-    - - attributes:
-          value: " To add a new %(id)s please fill in the form below. \n Existing\
-            \ entries are: %(contains)s \n Alternatively "
-        type: markdown
-      - attributes:
-          description: A detailed description of the activity or project.
-          label: Description
-        id: description
-        type: input
-        validations:
-          required: true
-      - attributes:
-          description: A unique identifier for the activity.
-          label: Id
-        id: id
-        type: input
-        validations:
-          required: true
-      - attributes:
-          description: The name of the activity.
-          label: Name
-        id: name
-        type: input
-        validations:
-          required: true
-      - attributes:
-          description: The type of entity being described (e.g., 'activity').
-          label: Type
-          options:
-          - activity
-        id: type
-        type: dropdown
-        validations:
-          required: true
-      - attributes:
-          description: A URL providing further documentation or references.
-          label: Url
-        id: url
-        type: input
-        validations:
-          required: true
+name: add/modify Activity
+description: null
+title: 'add/modify Activity: <enter item name>'
+body:
+-   type: markdown
+    attributes:
+        value: " To add a new %(id)s please fill in the form below. \n Existing entries\
+            \ are: %(contains)s \n Alternatively "
+-   id: description
+    attributes:
+        label: Description
+        description: A detailed description of the activity or project.
+    validations:
+        required: true
+    type: input
+-   id: id
+    attributes:
+        label: Id
+        description: A unique identifier for the activity.
+    validations:
+        required: true
+    type: input
+-   id: name
+    attributes:
+        label: Name
+        description: The name of the activity.
+    validations:
+        required: true
+    type: input
+-   id: type
+    attributes:
+        label: Type
+        description: The type of entity being described (e.g., 'activity').
+        options:
+        - activity
+    validations:
+        required: true
+    type: dropdown
+-   id: url
+    attributes:
+        label: Url
+        description: A URL providing further documentation or references.
+    validations:
+        required: true
+    type: input
