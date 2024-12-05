@@ -8,7 +8,7 @@ body:
             \ entries are: \n\n\t  | aerchemmip | c4mip | cfmip | cmip | damip | dcpp\
             \ | geomip | lesfmip | lmip | pmip | ramip | rfmip | scenariomip | tipmip\
             \ |   \n\n\n <br>\n Alternatively visit https://github.com/wcrp-cmip/WCRP-UNIVERSE/tree/main/activity/data_descriptors/\
-            \ to see examples. \n -----"
+            \ to see examples. \n <br> -----"
 -   id: description
     attributes:
         label: Description
