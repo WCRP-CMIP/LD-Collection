@@ -7,8 +7,8 @@ body:
         value: " To add a new activity please fill in the form below. \n\n Existing\
             \ entries are: \n\n\t  | aerchemmip | c4mip | cfmip | cmip | damip | dcpp\
             \ | geomip | lesfmip | lmip | pmip | ramip | rfmip | scenariomip | tipmip\
-            \ |  \n ___ \n - Alternatively [see here](https://github.com/wcrp-cmip/WCRP-UNIVERSE/tree/main/activity/data_descriptors/)\
-            \ for more examples.  ---"
+            \ |  \n ___ \n Alternatively [see here](https://github.com/wcrp-cmip/WCRP-UNIVERSE/tree/main/activity/data_descriptors/)\
+            \ for more examples. \n  ___"
 -   id: description
     attributes:
         label: Description
@@ -30,4 +30,3 @@ body:
     validations:
         required: true
     type: input
-
