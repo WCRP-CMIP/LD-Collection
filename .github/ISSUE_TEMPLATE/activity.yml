@@ -4,15 +4,6 @@ body:
       \ are: %(contains)s \n Alternatively "
   type: markdown
 - attributes:
-    description: The context for the data, usually a URL or a reference to external
-      definitions.
-    label: '@Context'
-    placeholder: Enter your @context
-  id: '@context'
-  type: input
-  validations:
-    required: true
-- attributes:
     description: A unique identifier for the activity.
     label: Id
     placeholder: Enter your id
