@@ -4,10 +4,10 @@ title: 'Add/Modify Activity: <enter item name>'
 body:
 -   type: markdown
     attributes:
-        value: " To add a new activity please fill in the form below. \n\n Existing\
+        value: " To add a new activity please fill in the form below.<br> Existing\
             \ entries are:  | aerchemmip | c4mip | cfmip | cmip | damip | dcpp\
             \ | geomip | lesfmip | lmip | pmip | ramip | rfmip | scenariomip | tipmip\
-            \ |   \\n\n\n Alternatively visit https://github.com/wcrp-cmip/WCRP-UNIVERSE/tree/main/activity/data_descriptors/ \
+            \ |   Alternatively visit https://github.com/wcrp-cmip/WCRP-UNIVERSE/tree/main/activity/data_descriptors/ \
             \ to see examples. \n ---"
 -   id: description
     attributes:
